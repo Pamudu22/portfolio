@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pamudu Wijayabandara</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b5140bee37.js" crossorigin="anonymous"></script>
+</head>
+<body class="back">
+    <div id="header" class="back2">
+        <div class="containerN">
+            <nav>
+                <img id="logo" src="images/logoWhite.png" alt="logo">
+                <ul><li><a onclick="scrollToSection('header')">Home</a></li>
+                <li><a onclick="scrollToSection('about')">About Me</a></li>
+                <li><a onclick="scrollToSection('services')">My services</a></li>
+                <li><a onclick="scrollToSection('portfolio')">My works</a></li>
+                <li><a onclick="scrollToSection('contact')">Contact Me</a></li>
+            </ul>
+            </nav>
+
+        </div>
+        
+        <div id="header_text">
+            <p>Full Stack Developper</p>
+            <h1>Hi , I'm <span>Pamudu Wijayabandara</span>  <br>From Sri Lanka</h1>
+            
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                <img id="aboutimg" src="images/BSSE0122011267back.png" alt="My Image">
+                </div>
+                <div class="aboutcol2">
+                <h1 class="subtitle">About Me</h1>
+                <p class="para1">orem Ipsum is simply dummy text of the printing 
+                    and typesetting industry. Lorem Ipsum has been the industry's 
+                    standard dummy text ever since the 1500s, when an unknown printer 
+                    took a
+                     galley of type and scrambled it to make a type specimen book. </p>
+                     <div class="tabtitles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designig web/App interfaces</li>
+                            <li><span>Web development</span><br>Designig web/App interfaces</li>
+                            <li><span>App development</span><br>Designig web/App interfaces</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2022-2026</span><br>Bsc(Hons) in software Engineering at Saegis Campus</li>
+                            
+                        </ul>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="servicesList">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h1>Web Design</h1>
+                    <p>rem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
+                        the industry's standard dummy text ever since the 1500s, 
+                        when an unkno</p>
+                        <a href="#">learn More</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h1>UX/UI Design</h1>
+                    <p>rem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
+                        the industry's standard dummy text ever since the 1500s, 
+                        when an unkno</p>
+                        <a href="#">learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-google-play"></i>
+                    <h1>App Design</h1>
+                    <p>rem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
+                        the industry's standard dummy text ever since the 1500s, 
+                        when an unkno</p>
+                        <a href="#">learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--portfolio-->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+                <div class="workList">
+                        <div class="work">
+                            <img src="images/p1.png" alt="project one">
+                            <div class="layer">
+                                <h3>Book Shop Website</h3>
+                                <p>industry. Lorem Ipsum has been the industry's standard dummy text ever
+                                     since the 1500s, when an unknown printer took a galley of type 
+                                     and scrambled it to make a 
+                                    type specimen book. It has survived not only five centuries,</p>
+                                
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/p2.png" alt="project two">
+                            <div class="layer">
+                                <h3>Book reservation Website</h3>
+                                <p>industry. Lorem Ipsum has been the industry's standard dummy text ever
+                                    since the 1500s, when an unknown printer took a galley of type 
+                                    and scrambled it to make a 
+                                   type specimen book. It has survived not only five centuries,</p>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/p3.png" alt="project three">
+                            <div class="layer">
+                            <h3> reservation app</h3>
+                            <p>industry. Lorem Ipsum has been the industry's standard dummy text ever
+                                since the 1500s, when an unknown printer took a galley of type 
+                                and scrambled it to make a 
+                               type specimen book. It has survived not only five centuries,</p>
+                            </div>
+                        </div>
+                       
+                </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-brands fa-telegram"></i>  pamudu884@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-phone-volume"></i>  0785145795</p>
+                    <div class="social-icons">
+                        <a href="https://web.facebook.com/yohan.bandara.507/" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/pamudu8" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="linkedin.com/in/pamudu-wijayabandara-41495a25b" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Pamudu22" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form >
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your E-mail" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="button">Submit</button>    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="copyright">
+        <p>Copyright &copy Pamudu Wijayabandara </p>
+    </div>
+
+
+
+    <script>
+        // JavaScript function to scroll to a specific section
+        function scrollToSection(sectionId) {
+            var element = document.getElementById(sectionId);
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+        var tablinks = document.getElementsByClassName('tab-links');
+        var tabcontents = document.getElementsByClassName('tab-contents');
+
+        function opentab(tabName){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabName).classList.add("active-tab");
+        }
+
+      
+    </script>
+</body>
+</html>
