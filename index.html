@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pamudu Wijayabandara</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b5140bee37.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+</head>
+<body class="back">
+    <div id="header" class="back2">
+        <div class="containerN">
+           
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <img id="logo" src="images/logoWhite.png" alt="logo">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a onclick="scrollToSection('header')">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a onclick="scrollToSection('about')">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a onclick="scrollToSection('services')">My services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a onclick="scrollToSection('portfolio')">My works</a>
+                            </li>
+                            <li class="nav-item">
+                                <a onclick="scrollToSection('contact')">Contact Me</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+        
+        <div id="header_text">
+            <p>Full Stack Developper</p>
+            <h1>Hi , I'm <span>Pamudu Wijayabandara</span>  <br>From Sri Lanka</h1>
+            
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                <img id="aboutimg" src="images/BSSE0122011267back.png" alt="My Image">
+                </div>
+                <div class="aboutcol2">
+                <h1 class="subtitle">About Me</h1>
+                <p class="para1">As a dedicated full-stack developer enrolled in the Software Engineering program at Saegis Campus, 
+                    I'm passionate about creating efficient and user-friendly solutions. With proficiency in various programming languages and frameworks,
+                     I specialize in designing polished websites and applications. Collaborative by nature, I thrive in team environments,
+                      leveraging strong communication skills to contribute effectively. Continual learning drives my growth, and
+                       I actively seek opportunities to enhance my skills. Beyond academics, 
+                       I engage in exploring emerging technologies and supporting open-source projects. 
+                    My aim is to continually improve and make impactful contributions to the field of software engineering. </p>
+                     <div class="tabtitles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designig web/App interfaces</li>
+                            <li><span>Web development</span><br>Crafting and implementing responsive and dynamic web solutions</li>
+                            <li><span>App development</span><br>Designing and developing feature-rich and intuitive applications</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2020-2022</span><br>Certificate in full-stack Developper at University of Moratuwa</li>
+                            <li><span>2022-2026</span><br>Bsc(Hons) in software Engineering at Saegis Campus</li>
+                            
+                        </ul>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="servicesList">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h1>Web Design</h1>
+                    <p>From concept to execution, we specialize in crafting visually stunning and functionally
+                         robust websites. Whether you're a small business looking to establish your online presence or
+                          a large corporation seeking to revamp your digital platform, we tailor our designs to meet your 
+                          unique needs. With a focus on user experience and cutting-edge technologies, we ensure your website
+                           not only looks great but also delivers an exceptional browsing experience across all devices.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h1>UX/UI Design</h1>
+                    <p>Our UX/UI design services are centered around creating intuitive
+                         and engaging interfaces that captivate users and drive interaction. Through meticulous
+                          research and user-centric design principles, we optimize the usability and accessibility 
+                          of your digital products, enhancing user satisfaction and retention. Whether it's crafting 
+                          wireframes, conducting usability testing, or refining interface elements, we are committed to 
+                          delivering designs that elevate your brand and resonate with your audience.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-google-play"></i>
+                    <h1>App Design</h1>
+                    <p>From iOS to Android, we specialize in designing captivating and user-friendly 
+                        mobile applications that stand out in the crowded app market. Our team of experienced designers 
+                        combines creativity with technical expertise to create visually stunning and intuitive app interfaces.
+                         Whether you're launching a new app or redesigning an existing one, we work closely with you to understand
+                          your goals and deliver designs that not only meet but exceed your expectations.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!--portfolio-->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+                <div class="workList">
+                    <div class="work">
+                        <img src="images/p1.png" alt="project one">
+                        <div class="layer">
+                            <h3>Book Shop Website</h3>
+                            <p>Experience a seamless online book shopping experience with our Book Shop Website.
+                                 Browse through our extensive collection of books, easily find what you're looking for, 
+                                 and securely purchase your favorite titles. Our user-friendly interface and intuitive navigation make
+                                  it simple for book lovers to explore and discover new reads.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="work">
+                        <img src="images/p2.png" alt="project two">
+                        <div class="layer">
+                            <h3>Book Reservation Website</h3>
+                            <p>Planning to visit your favorite bookstore? Our Book Reservation Website 
+                                lets you reserve your desired books in advance, ensuring they're ready for pickup when
+                                 you arrive. Say goodbye to waiting in long queues or missing out on popular titles. 
+                                 With our convenient reservation system, you can plan your book shopping experience with ease.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="work">
+                        <img src="images/p3.png" alt="project three">
+                        <div class="layer">
+                            <h3>Reservation App</h3>
+                            <p>Streamline your booking process with our Reservation App. Whether it's reserving 
+                                a table at your favorite restaurant, booking tickets for an event, or scheduling appointments,
+                                 our app simplifies the process and saves you time. With user-friendly features and secure payment 
+                                 options, managing your reservations has never been easier.</p>
+                        </div>
+                    </div>
+                    
+                       
+                </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-brands fa-telegram"></i>  pamudu884@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-phone-volume"></i>  0785145795</p>
+                    <div class="social-icons">
+                        <a href="https://web.facebook.com/yohan.bandara.507/" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/pamudu8" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="linkedin.com/in/pamudu-wijayabandara-41495a25b" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Pamudu22" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form >
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your E-mail" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="button">Submit</button>    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="copyright">
+        <p>Copyright &copy Pamudu Wijayabandara </p>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+        // JavaScript function to scroll to a specific section
+        function scrollToSection(sectionId) {
+            var element = document.getElementById(sectionId);
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+        var tablinks = document.getElementsByClassName('tab-links');
+        var tabcontents = document.getElementsByClassName('tab-contents');
+
+        function opentab(tabName){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabName).classList.add("active-tab");
+        }
+
+      
+    </script>
+</body>
+</html>
